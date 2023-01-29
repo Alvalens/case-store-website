@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.home {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEBEB;
+}
+.col-md-7 h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.col-md-7 p {
+    font-size: 30px;
+    color: rgb(70, 70, 70);
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .col-md-7 p {
+        margin-bottom: 200px;
+    }
+}
+
+.main-btn  {
+    font-weight: 600;
+    background-color: rgb(207, 207, 207) !important;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.048) !important;
+    transition: transform .5s ease !important;
+    -webkit-transition: all .5s ease !important;
+    -moz-transition: all .5s ease !important;
+    -ms-transition: all .5s ease !important;
+    -o-transition: all .5s ease !important;
+}
+.main-btn:hover {
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0 0 2px 4px rgba(255, 255, 255, 0.048) !important;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    
+    
+}
